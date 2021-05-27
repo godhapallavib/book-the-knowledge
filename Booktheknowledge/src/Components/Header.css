@@ -1,0 +1,23 @@
+.logoutbutton {
+  margin-left: 700px;
+  margin-top: 0.5rem;
+  width: 85px;
+  height: 35px;
+  background-color: #006400;
+  color: white;
+}
+.logoimg {
+  margin-left: 470px;
+  width: 350px;
+  height: 130px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.col {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}

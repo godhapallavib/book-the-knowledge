@@ -1,0 +1,50 @@
+td {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+table {
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cartimg {
+  width: 100px;
+  height: 60px;
+}
+.backtoshop {
+  float: left;
+  margin-top: 5rem;
+  margin-left: 8rem;
+  width: 150px;
+  height: 30px;
+  background-color: #006400;
+  color: white;
+}
+hr {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.totaldiv {
+  box-sizing: border-box;
+  margin-top: 2rem;
+  margin-right: 3rem;
+}
+.totalcost {
+  float: right;
+  margin-right: 14rem;
+}
+.logoutbutton {
+  margin-left: 700px;
+  margin-top: 0.5rem;
+  width: 85px;
+  height: 35px;
+  background-color: #006400;
+  color: white;
+}
+.deletebutton {
+  background-color: darkred;
+  color: white;
+  width: 80px;
+  height: 30px;
+}
