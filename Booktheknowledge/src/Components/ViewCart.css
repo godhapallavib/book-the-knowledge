@@ -11,6 +11,7 @@ table {
 .cartimg {
   width: 100px;
   height: 60px;
+  margin-left: 50px;
 }
 .backtoshop {
   float: left;
@@ -32,11 +33,11 @@ hr {
 }
 .totalcost {
   float: right;
-  margin-right: 14rem;
+  margin-right: 11rem;
 }
-.logoutbutton {
-  margin-left: 700px;
-  margin-top: 0.5rem;
+.logoutbutton1 {
+  margin-left: 1100px;
+  margin-top: 1rem;
   width: 85px;
   height: 35px;
   background-color: #006400;

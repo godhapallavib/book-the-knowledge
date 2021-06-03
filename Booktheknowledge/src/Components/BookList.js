@@ -9,7 +9,7 @@ const BookList = () =>{
     const History = useHistory();
 
     useEffect( () => {
-         axios.get("http://localhost:81/Booktheknowledge-backend/PHP/BookList.php")
+         axios.get("http://localhost:81/BTK/Booktheknowledge-backend/PHP/BookList.php")
         .then(response => {
             setList(response.data.result)
         })
@@ -20,7 +20,7 @@ const BookList = () =>{
         data.append('email',localStorage.getItem('email'));
         data.append('id',id);
         const response = await axios({
-                url: "http://localhost:81/Booktheknowledge-backend/PHP/AddtoCart.php",
+                url: "http://localhost:81/BTK/Booktheknowledge-backend/PHP/AddtoCart.php",
                 method: "post",
                 headers: {
                   "Content-Type": "application/x-www-form-urlencoded",
